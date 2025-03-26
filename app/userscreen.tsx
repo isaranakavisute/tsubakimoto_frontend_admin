@@ -8,7 +8,8 @@ import useRouter from '@/node_modules/next/router';
 //import useRouter from '@/node_modules/next/navigator';
 import axios from 'axios';
 //import MainScreen from '../mainpage/userscreen';
-
+//import logo from "./images/new_logo.png";
+//import Image from "next/image";
 
 
 export default function UserScreen() {
