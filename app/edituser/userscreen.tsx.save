@@ -8,14 +8,12 @@ import useRouter from '@/node_modules/next/router';
 //import useRouter from '@/node_modules/next/navigator';
 import axios from 'axios';
 //import MainScreen from '../mainpage/userscreen';
-import React, { useState } from 'react';
-import tsubakimoto_logo from "./images/tsubakimoto_logo.svg";
+
+
 
 export default function RegisterScreen() {
 
   const router = useRouter;
-
-  const [register_status, set_register_status] = React.useState("user is not registered");  
  
   async function handleOnSubmit(event: FormEvent<HTMLFormElement>) 
   {
@@ -39,12 +37,11 @@ export default function RegisterScreen() {
    })
    .then(res => {
     var std_json_res = res.data;
-    //alert(std_json_res.register.result);
-    //console.log(std_json_res.register.result);
+    alert(std_json_res.register.result);
+    console.log(std_json_res.register.result);
     if (std_json_res.register.result=="pass")
      {
       alert('user registered');
-      set_register_status("User:"+usr + " is now registered.");
      }
     })
     .catch(err => {
@@ -53,39 +50,14 @@ export default function RegisterScreen() {
 
  function onReturnButtonClicked()
  {
-  window.location.href = "/login";
+  window.location = "/login";
  }
 
   return (
        <form onSubmit={handleOnSubmit}>
-        <div className="flex flex-col">
-
-         
-       
-         
-                 
+        <div className="flex flex-col">                 
          <div className="flex h-[100vh] w-full flex-row items-center justify-center bg-white">
           <div className="flex h-full w-1/2 bg-white flex-col justify-start rounded-xl">
-           
-
-              <div className="flex flex-row h-[5vh] w-full justify-center mt-5">            
-               <div
-                  style={{
-                    position: "relative",
-                    width: "75%",
-                    height: "75%",
-                  }}
-               >
-               <Image
-                src={tsubakimoto_logo}
-                alt="tsubakimoto logo"
-                fill = {true}
-               />
-               </div>
-              </div>
-             
-
-
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-15 mt-10">
              <div className="text-3xl">Please register your account</div>
             </div>
@@ -97,23 +69,9 @@ export default function RegisterScreen() {
              <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5">PASSWORD</div>
              <div className="h-full w-3/4 border-0 border-solid border-black flex flex-row justify-start items-center"><input type="text" name="pwd" className="h-full w-full border border-solid border-yellow text-2xl cursor-wait mr-5"  /></div>
             </div>
-            {/*
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-start mb-10">
              <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5">EMAIL</div>
              <div className="h-full w-3/4 border-0 border-solid border-black flex flex-row justify-start items-center"><input type="text" name="access" className="h-full w-full border border-solid border-yellow text-2xl cursor-wait mr-5"  /></div>
-            </div>*/}
-            <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-10 bg-white">
-             <div className="h-full w-full border-0 border-solid border-black ml-5 mr-5">
-              <select name="access" className="h-full w-full border border-solid border-yellow">
-               <option value="Please select access type">Please select access type</option>
-               <option value="Tsubakimoto">Tsubakimoto</option>
-               <option value="KTE">KTE</option>
-               <option value="Agency">Agency</option>
-              </select>
-             </div>
-            </div>
-            <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
-             <div className="text-xl text-red-300">{register_status}</div>
             </div>
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-amber-200 h-full w-[20vh] rounded-lg" value="Register" />
