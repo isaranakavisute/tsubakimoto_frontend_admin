@@ -43,12 +43,12 @@ export default function UserScreen() {
 
   function onEditIconClicked()
   {
-   alert('Item will be edited');
+   //alert('Item will be edited');
   }
 
   function onDeleteIconClicked()
   {
-   alert('Item will be deleted');
+   //alert('Item will be deleted');
   }
 
   return (

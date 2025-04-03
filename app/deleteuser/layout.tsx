@@ -1,8 +1,9 @@
 //import Sidebar from "./sidebar.tsx";
-import RegisterScreen from "./userscreen";
+import DeleteScreen from "./userscreen";
 import Sidebar from "./sidebar";
 //import logo from "./images/new_logo.png";
 //import Image from "next/image";
+import { Suspense } from "react";
 
 export default function BackOfficeLayout({ children }: {
     children: React.ReactNode
@@ -15,7 +16,12 @@ export default function BackOfficeLayout({ children }: {
        <Sidebar />
       </div>
       <div className="bg-primary h-full w-full text-white border-1 border-black border-solid">
-       <RegisterScreen />
+      
+
+       <Suspense fallback={<div>Loading...</div>}>
+        <DeleteScreen />
+       </Suspense>
+
       </div>
     </div>
 
