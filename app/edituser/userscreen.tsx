@@ -87,7 +87,7 @@ export default function DeleteScreen() {
 
     axios({
      method: "POST",
-     url: "http://deploy-aws.com:3006/delete",
+     url: "http://deploy-aws.com:3006/edit",
      headers: {
       "Content-Type": "application/json"
      },
@@ -99,10 +99,10 @@ export default function DeleteScreen() {
    })
    .then(res => {
     var std_json_res = res.data;
-    if (std_json_res.deletion.result=="pass")
+    if (std_json_res.updating.result=="pass")
      {
       //alert('user deleted');
-      set_deletion_status("User:"+usr + " is now deleted.");
+      set_deletion_status("User:"+usr + " is now edited.");
      }
     })
     .catch(err => {
@@ -138,7 +138,7 @@ export default function DeleteScreen() {
                </div>
               </div>
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-15 mt-10">
-             <div className="text-3xl text-black">This is a user deletion screen</div>
+             <div className="text-3xl text-black">This is a user editing screen</div>
             </div>
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-start mb-10">
              <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5 mr-5">
@@ -159,11 +159,11 @@ export default function DeleteScreen() {
             </div>*/}
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-10 bg-white">
              <div className="h-full w-full border-1 border-solid border-black ml-5 mr-5">
-              <select name="access" className="h-full w-full border-0 border-solid border-yellow text-black" value={access_from_initializer} >
+              <select name="access" className="h-full w-full border-0 border-solid border-yellow text-black" >
                <option value="Please select access type">Please select access type</option>
-               <option value="Tsubakimoto">Tsubakimoto</option>
-               <option value="KTE">KTE</option>
-               <option value="Agency">Agency</option>
+               <option value="Tsubakimoto" selected={(access_from_initializer == "Tsubakimoto") ? true : false}  >Tsubakimoto</option>
+               <option value="KTE"  selected={(access_from_initializer == "KTE") ? true : false}>KTE</option>
+               <option value="Agency" selected={(access_from_initializer == "Agency") ? true : false}>Agency</option>
               </select>
              </div>
             </div>
