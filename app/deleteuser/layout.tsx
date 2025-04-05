@@ -1,6 +1,6 @@
 //import Sidebar from "./sidebar.tsx";
 import DeleteScreen from "./userscreen";
-import Sidebar from "./sidebar";
+import Sidebar from "../common_page/sidebar";
 //import logo from "./images/new_logo.png";
 //import Image from "next/image";
 import { Suspense } from "react";
