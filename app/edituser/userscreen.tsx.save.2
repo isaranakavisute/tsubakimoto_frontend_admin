@@ -20,7 +20,7 @@ export default function DeleteScreen() {
 
   const [editing_status, set_editing_status] = React.useState("user is not edited");  
   const [user_from_initialzer, set_user_from_initialzer_status] = React.useState("not initialized");  
-  const [password_from_initializer, set_password_from_initializer_status] = React.useState("");  
+  const [password_from_initializer, set_password_from_initializer_status] = React.useState("not initialized");  
   const [access_from_initializer, set_access_from_initializer_status] = React.useState("Please select access type");  
 
   const searchParams = useSearchParams();
@@ -144,24 +144,14 @@ export default function DeleteScreen() {
              <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5 mr-5">
               <div className="text-3xl text-black">USERNAME</div>
              </div>
-             <div className="h-full w-3/4 border-0 border-solid border-black flex flex-row justify-start items-center">
-              <input type="text" name="usr" className="h-full w-full border border-solid border-black text-2xl cursor-wait mr-5 text-black" value={user_from_initialzer} />
-             </div>
+             <div className="h-full w-3/4 border-0 border-solid border-black flex flex-row justify-start items-center"><input type="text" name="usr" className="h-full w-full border border-solid border-black text-2xl cursor-wait mr-5 text-black" value={user_from_initialzer} /></div>
             </div>
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-start mb-10">
              <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5 mr-5">
-              <div className="text-3xl text-black">PASSWORD</div>
+             <div className="text-3xl text-black">PASSWORD</div>
              </div>
              <div className="h-full w-3/4 border-0 border-solid border-black flex flex-row justify-start items-center">
-
-               { 
-                 password_from_initializer != "" 
-                 && 
-                 <input type="text" name="pwd" className="h-full w-full border border-solid border-black text-2xl cursor-wait mr-5 text-black" 
-                 defaultValue={password_from_initializer}    />
-               } 
-
-             </div>
+              <input type="text" name="pwd" className="h-full w-full border border-solid border-black text-2xl cursor-wait mr-5 text-black" value={password_from_initializer} onChange={(e) => setStateOfInput(e.target.value)}  /></div>
             </div>
             {/*
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-start mb-10">
