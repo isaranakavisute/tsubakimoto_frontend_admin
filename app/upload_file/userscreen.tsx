@@ -25,20 +25,32 @@ export default function UserScreen() {
   {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
-    const file_to_upload = formData.get('user_list_file');
+
+
+    axios.post("http://deploy-aws.com:3006/upload_excel", formData, {headers: {'Content-Type': 'multipart/form-data'}})
+                      .then(res => {
+                        console.log(res.data);
+                        alert('uploaded');
+                        set_uploaded_status('uploaded');
+                      })
+                       .catch(err => {
+                      });
+
+
+    //const file_to_upload = formData.get('user_list_file');
     //const password = formData.get('password');
     //const access = formData.get('access');
-    axios({
-     method: "POST",
-     url: "http://deploy-aws.com:3006/upload_excel",
-     headers: {
-      "Content-Type": "application/json"
-     }
-   })
-   .then(res => {
-    set_std_json_res(res.data);
-    return res.data;
-    });
+    //axios({
+     //method: "POST",
+     //url: "http://deploy-aws.com:3006/upload_excel",
+     //headers: {
+      //"Content-Type": "application/json"
+     //}
+   //})
+   //.then(res => {
+   // set_std_json_res(res.data);
+   // return res.data;
+    //});
  }
 
   return (
@@ -64,34 +76,28 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-15 mt-10">
           <div className="text-3xl text-black">Please upload file(s)</div>
          </div>
-         <div className="flex flex-row w-full h-[5vh] border border-solid border-black items-center justify-start mb-10">
+         <div className="flex flex-row w-full h-[5vh] border border-solid border-black items-center justify-start mb-10 bg-yellow-50">
           <div className="text-3xl h-full w-1/4 border-0 border-solid border-black flex flex-col justify-center ml-5 mr-5">
            <div className="text-3xl text-black">USER_LIST</div>
           </div>
           <div className="h-full w-2/4 border border-solid border-black flex flex-row justify-start items-center">
            <input type="file" 
-                  name="user_list_file" 
+                  name="file" 
                   className="h-full w-full border border-solid border-yellow text-black"
+                  /*
                   onChange={
                     async (e) => 
                     {
                     if (e.target.files) {
+                      console.log("there is file attachement1");
                       const formData = new FormData();
                       Object.values(e.target.files).forEach((file) => {
+                        console.log("there is file attachement2");
                         formData.append("file", file);
                       });  
-                      const file = formData.get('file');
-                      axios({
-                        method: "POST",
-                        url: "http://deploy-aws.com:3006/upload_excel",
-                        headers: {
-                         "Content-Type": "application/json"
-                        },
-                        data: {
-                         file: file
-                       },
-                      })
+                      axios.post("http://deploy-aws.com:3006/upload_excel", formData, {headers: {'Content-Type': 'multipart/form-data'}})
                       .then(res => {
+                        console.log(res.data);
                         alert('uploaded');
                         set_uploaded_status('uploaded');
                       })
@@ -100,6 +106,7 @@ export default function UserScreen() {
                      }  
                     }
                   }
+                  */
            />
           </div>
           <div className="text-sm text-red-400 ml-2">{uploaded_status}</div>
