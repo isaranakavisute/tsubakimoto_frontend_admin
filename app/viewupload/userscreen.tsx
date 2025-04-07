@@ -24,7 +24,7 @@ export default function UserScreen() {
   {
     axios({
      method: "POST",
-     url: "http://deploy-aws.com:3006/listuser",
+     url: "http://deploy-aws.com:3006/get_master_akt_format_kabelschlepp",
      headers: {
       "Content-Type": "application/json"
      }
@@ -57,16 +57,16 @@ export default function UserScreen() {
           <div className="flex h-full w-full bg-white flex-col justify-start items-center rounded-xl">
 
             <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center bg-amber-600">
-             <div className="text-3xl text-black">Registered user</div>
+             <div className="text-3xl text-black">View Data</div>
             </div>
 
             <div className="flex flex-col w-full h-[5vh] border-0 border-solid bg-amber-600 items-center justify-start"> 
              <div className="flex flex-row w-full h-full border-0 border-solid border-black">
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">USER ID</div>
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">USERNAME</div>
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">PASSWORD</div>
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">ACCESS</div>
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">ADMIN TOOL</div>
+              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL1</div>
+              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL2</div>
+              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL3</div>
+              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL4</div>
+              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL5</div>
              </div>
             </div>
 
@@ -74,11 +74,11 @@ export default function UserScreen() {
              {
               std_json_res.map((post) => (
                  
-                  <div className="flex flex-row w-full h-[3vh] bg-amber-100" key={post.Id}>
-                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.Id}</div>
-                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.usr}</div>
-                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.pwd}</div>
-                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.access}</div>
+                  <div className="flex flex-row w-full h-[3vh] bg-amber-100" key={post.part_no}>
+                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.category}</div>
+                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.part_no}}</div>
+                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.previous_model_no}</div>
+                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.new_model_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full flex flex-row">
          
                     
