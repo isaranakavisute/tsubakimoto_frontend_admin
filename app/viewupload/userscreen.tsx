@@ -17,7 +17,8 @@ import trash_icon from "./images/recycle-bin-icon.svg";
 export default function UserScreen() {
 
   const router = useRouter;
-  const [std_json_res, set_std_json_res] = React.useState([{"Id": "value","usr": "value","pwd": "value","access": "value"}]); //React.useState(null);
+  const [std_json_res, set_std_json_res] = React.useState([{"category": "value","part_no": "value","previous_model_no": "value","new_model_no": "value"}]); //React.useState(null);
+ 
  
 
   function autoload()
