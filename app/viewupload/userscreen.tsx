@@ -90,7 +90,7 @@ export default function UserScreen() {
          <div className="flex h-full w-full flex-row items-center justify-center bg-white">
           <div className="flex h-full w-full bg-white flex-col justify-start items-center rounded-xl">
 
-            <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center bg-amber-600">
+            <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center bg-white">
              <div className="text-3xl text-black">View Uploaded Data</div>
             </div>
 
