@@ -99,37 +99,37 @@ export default function UserScreen() {
              
 
 
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">category</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">part_no</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">previous_model_no</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">new_model_no</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">unit</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">manufacturer_suggested_retail_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">new_manufacturer_suggested_retail_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">conversion_to_ft</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">diff_for_cost</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">op_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">po_price_jpy_usd</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">po_price_currency</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">remark</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">thb_cost</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">gp</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">pricelist_name</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">multiplier</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">make_same_price_as_standard_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">new_make_same_price_as_standard_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">standard_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">diff</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">dist_pl_mull</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">dist_ex_rate</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">unit_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">new_unit_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">diff_unit_price</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">status</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">supplier_name</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">stock_reference</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">cutting_assembly</div>
-              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-amber-600 justify-center text-black text-xs">detail</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">category</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">part_no</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">previous_model_no</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">new_model_no</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">unit</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">manufacturer_suggested_retail_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">new_manufacturer_suggested_retail_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">conversion_to_ft</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">diff_for_cost</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">op_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">po_price_jpy_usd</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">po_price_currency</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">remark</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">thb_cost</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">gp</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">pricelist_name</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">multiplier</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">make_same_price_as_standard_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">new_make_same_price_as_standard_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">standard_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">diff</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">dist_pl_mull</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">dist_ex_rate</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">unit_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">new_unit_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">diff_unit_price</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">status</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">supplier_name</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">stock_reference</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">cutting_assembly</div>
+              <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">detail</div>
 
 
              </div>
