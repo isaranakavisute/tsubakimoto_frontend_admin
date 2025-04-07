@@ -77,7 +77,7 @@ export default function UserScreen() {
                  
                   <div className="flex flex-row w-full h-[3vh] bg-amber-100" key={post.part_no}>
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.category}</div>
-                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.part_no}}</div>
+                   <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.part_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.previous_model_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.new_model_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full flex flex-row">
