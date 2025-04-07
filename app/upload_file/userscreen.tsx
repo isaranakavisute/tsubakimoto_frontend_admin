@@ -64,18 +64,18 @@ export default function UserScreen() {
 
                         set_uploaded_status_update_master_sugar_stock('uploaded');
 
-                        //const [uploaded_status_update_master_sprocket_pricelist,set_uploaded_status_update_master_sprocket_pricelist] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_small_size_chain_pricelist,set_uploaded_status_update_master_small_size_chain_pricelist] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_ptuc_other_dist,set_uploaded_status_update_master_ptuc_other_dist] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_ptuc_kte,set_uploaded_status_update_master_ptuc_kte] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_kte_stock,set_uploaded_status_update_master_kte_stock] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_jpy_chain,set_uploaded_status_update_master_jpy_chain] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_akt_format_warehouse_pricelist,set_uploaded_status_update_master_akt_format_warehouse_pricelist] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_akt_format_scg_group_chain,set_uploaded_status_update_master_akt_format_scg_group_chain] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_akt_format_scg_group_cam_clutch,set_uploaded_status_update_master_akt_format_scg_group_cam_clutch] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_akt_format_kabelschlepp,set_uploaded_status_update_mastecr_akt_format_kabelschlepp] = React.useState("not uploaded");
-                        //const [uploaded_status_update_master_drivechain,set_uploaded_status_update_master_drivechain] = React.useState("not uploaded");
-                        //const [uploaded_status_update_user_data_tsubakimoto,set_uploaded_status_update_user_data_tsubakimoto] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_sprocket_pricelist,set_uploaded_status_update_master_sprocket_pricelist] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_small_size_chain_pricelist,set_uploaded_status_update_master_small_size_chain_pricelist] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_ptuc_other_dist,set_uploaded_status_update_master_ptuc_other_dist] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_ptuc_kte,set_uploaded_status_update_master_ptuc_kte] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_kte_stock,set_uploaded_status_update_master_kte_stock] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_jpy_chain,set_uploaded_status_update_master_jpy_chain] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_akt_format_warehouse_pricelist,set_uploaded_status_update_master_akt_format_warehouse_pricelist] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_akt_format_scg_group_chain,set_uploaded_status_update_master_akt_format_scg_group_chain] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_akt_format_scg_group_cam_clutch,set_uploaded_status_update_master_akt_format_scg_group_cam_clutch] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_akt_format_kabelschlepp,set_uploaded_status_update_mastecr_akt_format_kabelschlepp] = React.useState("not uploaded");
+                        // const [uploaded_status_update_master_drivechain,set_uploaded_status_update_master_drivechain] = React.useState("not uploaded");
+                        // const [uploaded_status_update_user_data_tsubakimoto,set_uploaded_status_update_user_data_tsubakimoto] = React.useState("not uploaded");
 
 
 
@@ -614,7 +614,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -660,7 +660,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -706,7 +706,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -752,7 +752,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -798,7 +798,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -844,7 +844,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -890,7 +890,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -936,7 +936,8 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
+         </div>
         </form>
        </div>
 
@@ -980,7 +981,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -1025,7 +1026,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -1070,7 +1071,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -1115,7 +1116,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -1160,7 +1161,7 @@ export default function UserScreen() {
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
               <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
-              <Link href="/viewupload"><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" /></Link>
+              <Link href="viewupload"><input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" /></Link>
          </div>
         </form>
        </div>
@@ -1171,6 +1172,7 @@ export default function UserScreen() {
     </div>
    </div>
   </div>
+  
  );
 
 }
