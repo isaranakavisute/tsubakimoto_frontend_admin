@@ -67,7 +67,6 @@ export default function UserScreen() {
               <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL2</div>
               <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL3</div>
               <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL4</div>
-              <div className="flex flex-row w-1/5 h-full border-1 border-solid border-black bg-amber-600 justify-center text-black">COL5</div>
              </div>
             </div>
 
@@ -80,51 +79,6 @@ export default function UserScreen() {
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.part_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.previous_model_no}</div>
                    <div className="border-1 border-solid border-black w-1/5 h-full text-xl text-black">{post.new_model_no}</div>
-                   <div className="border-1 border-solid border-black w-1/5 h-full flex flex-row">
-         
-                    
-
-                                        
-                    <div className="mr-2 h-full w-1/2 flex flex-row justify-end">
-                     <div
-                      style={{
-                      position: "relative",
-                      width: "75%",
-                      height: "75%",
-                      }}
-                     >
-                      <Link href={"/edituser?id="+post.Id}  onClick={onEditIconClicked}>                       
-                        <Image
-                         src={pencil_icon}
-                         alt="pencil icon"
-                         fill = {true}
-                        />
-                      </Link>
-                     </div>
-                    </div>
-
-                   
-                    <div className="mr-2 h-full w-1/2 flex flex-row justify-start">
-                     <div
-                      style={{
-                      position: "relative",
-                      width: "75%",
-                      height: "75%",
-                      }}
-                     >
-                      <Link href={"/deleteuser?id="+post.Id} onClick={onDeleteIconClicked}>
-                       <Image
-                        src={trash_icon}
-                        alt="trash icon"
-                        fill = {true}
-                       />
-                      </Link>
-                     </div>
-                    </div>
-                    
-
-
-                   </div>
                   </div>
                  
                  )        
