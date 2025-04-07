@@ -13,7 +13,7 @@ import React, { FormEvent } from "react";
 //import pencil_icon from "./images/pencil-icon.svg";
 //import trash_icon from "./images/recycle-bin-icon.svg";
 import tsubakimoto_logo from "./images/tsubakimoto_logo.svg";
-
+import Link from "next/link";
 
 export default function UserScreen() {
 
@@ -64,29 +64,29 @@ export default function UserScreen() {
 
                         set_uploaded_status_update_master_sugar_stock('uploaded');
 
-  const [uploaded_status_update_master_sprocket_pricelist,set_uploaded_status_update_master_sprocket_pricelist] = React.useState("not uploaded");
+                        //const [uploaded_status_update_master_sprocket_pricelist,set_uploaded_status_update_master_sprocket_pricelist] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_small_size_chain_pricelist,set_uploaded_status_update_master_small_size_chain_pricelist] = React.useState("not uploaded");
+                        //const [uploaded_status_update_master_small_size_chain_pricelist,set_uploaded_status_update_master_small_size_chain_pricelist] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_ptuc_other_dist,set_uploaded_status_update_master_ptuc_other_dist] = React.useState("not uploaded");
+                        //const [uploaded_status_update_master_ptuc_other_dist,set_uploaded_status_update_master_ptuc_other_dist] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_ptuc_kte,set_uploaded_status_update_master_ptuc_kte] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_ptuc_kte,set_uploaded_status_update_master_ptuc_kte] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_kte_stock,set_uploaded_status_update_master_kte_stock] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_kte_stock,set_uploaded_status_update_master_kte_stock] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_jpy_chain,set_uploaded_status_update_master_jpy_chain] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_jpy_chain,set_uploaded_status_update_master_jpy_chain] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_akt_format_warehouse_pricelist,set_uploaded_status_update_master_akt_format_warehouse_pricelist] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_akt_format_warehouse_pricelist,set_uploaded_status_update_master_akt_format_warehouse_pricelist] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_akt_format_scg_group_chain,set_uploaded_status_update_master_akt_format_scg_group_chain] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_akt_format_scg_group_chain,set_uploaded_status_update_master_akt_format_scg_group_chain] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_akt_format_scg_group_cam_clutch,set_uploaded_status_update_master_akt_format_scg_group_cam_clutch] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_akt_format_scg_group_cam_clutch,set_uploaded_status_update_master_akt_format_scg_group_cam_clutch] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_akt_format_kabelschlepp,set_uploaded_status_update_mastecr_akt_format_kabelschlepp] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_akt_format_kabelschlepp,set_uploaded_status_update_mastecr_akt_format_kabelschlepp] = React.useState("not uploaded");
 
-  const [uploaded_status_update_master_drivechain,set_uploaded_status_update_master_drivechain] = React.useState("not uploaded");
+                        const [uploaded_status_update_master_drivechain,set_uploaded_status_update_master_drivechain] = React.useState("not uploaded");
 
-  const [uploaded_status_update_user_data_tsubakimoto,set_uploaded_status_update_user_data_tsubakimoto] = React.useState("not uploaded");
+                        const [uploaded_status_update_user_data_tsubakimoto,set_uploaded_status_update_user_data_tsubakimoto] = React.useState("not uploaded");
 
 
 
