@@ -624,7 +624,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -669,7 +670,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -714,7 +716,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -759,7 +762,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -804,7 +808,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -849,7 +854,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -894,7 +900,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -939,7 +946,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -983,7 +991,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -1027,7 +1036,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -1071,7 +1081,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -1115,7 +1126,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+             <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
@@ -1159,7 +1171,8 @@ export default function UserScreen() {
          </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-0">
               <input type="submit" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black w-[20vh] rounded-lg" value="Upload" />
-              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 mr-5 bg-black h-full w-[20vh] rounded-lg" value="Cancel" />
+              <input type="reset" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg" value="View" />
          </div>
         </form>
        </div>
