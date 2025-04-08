@@ -94,11 +94,8 @@ export default function UserScreen() {
              <div className="text-3xl text-black">View Uploaded Data</div>
             </div>
 
-            <div className="flex flex-col w-full h-[5vh] border-0 border-solid bg-amber-600 items-center justify-start"> 
+            {/* <div className="flex flex-col w-full h-[5vh] border-0 border-solid bg-amber-600 items-center justify-start"> 
              <div className="flex flex-row w-full h-full border-0 border-solid border-black">
-             
-
-
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">category</div>
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">part_no</div>
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">previous_model_no</div>
@@ -130,12 +127,10 @@ export default function UserScreen() {
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">stock_reference</div>
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">cutting_assembly</div>
               <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">detail</div>
-
-
              </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col w-full h-full border-1 border-solid border-purple items-center justify-start overflow-y-auto"> 
+            {/* <div className="flex flex-col w-full h-full border-1 border-solid border-purple items-center justify-start overflow-y-auto"> 
              {
               std_json_res.map((post) => (
                  
@@ -172,11 +167,92 @@ export default function UserScreen() {
                    <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">{post.cutting_assembly}</div>
                    <div className="flex flex-row w-[20vh] h-full border-1 border-solid border-black bg-white justify-center text-black text-xs">{post.detail}</div>
                   </div>
-                 
                  )        
                )              
              }
-           </div>
+           </div> */}
+
+           <table className="border border-solid border-black w-full">
+            <tr>
+              <td>part_no</td>
+              <td>previous_model_no</td>
+              <td>new_model_no</td>
+              <td>unit</td>
+              <td>manufacturer_suggested_retail_price</td>
+              <td>new_manufacturer_suggested_retail_price</td>
+              <td>conversion_to_ft</td>
+              <td>diff_for_cost</td>
+              <td>op_price</td>
+              <td>po_price_jpy_usd</td>
+              <td>po_price_currency</td>
+              <td>remark</td>
+              <td>thb_cost</td>
+              <td>gp</td>
+              <td>pricelist_name</td>
+              <td>multiplier</td>
+              <td>make_same_price_as_standard_price</td>
+              <td>new_make_same_price_as_standard_price</td>
+              <td>standard_price</td>
+              <td>diff</td>
+              <td>dist_pl_mull</td>
+              <td>dist_ex_rate</td>
+              <td>unit_price</td>
+              <td>new_unit_price</td>
+              <td>diff_unit_price</td>
+              <td>status</td>
+              <td>supplier_name</td>
+              <td>stock_reference</td>
+              <td>cutting_assembly</td>
+              <td>detail</td>
+            </tr>
+
+            <div className="flex flex-col w-full h-full border-1 border-solid border-purple items-center justify-start overflow-y-auto"> 
+            {
+              std_json_res.map((post) => (
+                 
+                   <tr key={post.part_no}>
+                   <td>{post.category}</td>
+                   <td>{post.part_no}</td>
+                   <td>{post.previous_model_no}</td>
+                   <td>{post.new_model_no}</td>
+                   <td>{post.unit}</td>
+                   <td>{post.manufacturer_suggested_retail_price}</td>
+                   <td>{post.new_manufacturer_suggested_retail_price}</td>
+                   <td>{post.conversion_to_ft}</td>
+                   <td>{post.diff_for_cost}</td>
+                   <td>{post.op_price}</td>
+                   <td>{post.po_price_jpy_usd}</td>
+                   <td>{post.po_price_currency}</td>
+                   <td>{post.remark}</td>
+                   <td>{post.thb_cost}</td>
+                   <td>{post.gp}</td>
+                   <td>{post.pricelist_name}</td>
+                   <td>{post.multiplier}</td>
+                   <td>{post.make_same_price_as_standard_price}</td>
+                   <td>{post.new_make_same_price_as_standard_price}</td>
+                   <td>{post.standard_price}</td>
+                   <td>{post.diff}</td>
+                   <td>{post.dist_pl_mull}</td>
+                   <td>{post.dist_ex_rate}</td>
+                   <td>{post.unit_price}</td>
+                   <td>{post.new_unit_price}</td>
+                   <td>{post.diff_unit_price}</td>
+                   <td>{post.status}</td>
+                   <td>{post.supplier_name}</td>
+                   <td>{post.stock_reference}</td>
+                   <td>{post.cutting_assembly}</td>
+                   <td>{post.detail}</td>
+                   </tr>
+                 )        
+               )              
+             }
+            </div>
+
+
+           </table>
+
+
+
           </div>
          </div>
         </div> 
