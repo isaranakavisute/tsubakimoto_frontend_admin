@@ -550,7 +550,40 @@ export default function UserScreen() {
 
   async function clear_database()
   {
-   alert('test');
+
+
+    
+   //alert('test');
+   //clear_master_tsubakimoto_database
+
+  //  axios.post("http://deploy-aws.com:3006/clear_master_tsubakimoto_database", formData, {headers: {'Content-Type': 'multipart/form-data'}})
+  //  .then(res => {
+  //    //console.log(res.data);
+  //    alert('database cleared');
+  //    //set_uploaded_status('uploaded');
+  //    //set_uploaded_status_update_user_data_tsubakimoto('uploaded');
+  //  })
+  //   .catch(err => {
+  //  });
+
+
+   axios({
+    method: "POST",
+    url: "http://deploy-aws.com:3006/clear_master_tsubakimoto_database",
+    headers: {
+     "Content-Type": "application/json"
+    },
+    data: {
+     anything: ""
+   },
+  })
+  .then(res => { 
+   })
+   .catch(err => {
+  });
+
+
+
   }
 
   return (
