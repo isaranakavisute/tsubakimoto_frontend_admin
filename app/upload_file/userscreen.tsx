@@ -548,6 +548,11 @@ export default function UserScreen() {
     //});
  }
 
+  async function clear_database()
+  {
+   alert('test');
+  }
+
   return (
     
      <div className="flex flex-col">
@@ -569,7 +574,7 @@ export default function UserScreen() {
             </div>
            </div>
          <div className="flex flex-row w-full h-[5vh] border-0 border-solid border-black items-center justify-center mb-15 mt-10">
-          <div className="text-3xl text-black">Please upload file(s)</div>
+          <div className="text-3xl text-black pr-5">Please upload file(s) <Link href="" onClick={clear_database}><input type="button" className="pl-2 pr-2 pt-2 pb-2 bg-black h-full w-[20vh] rounded-lg text-white text-sm" value="Clear Database" /></Link></div>
          </div>
 
 
