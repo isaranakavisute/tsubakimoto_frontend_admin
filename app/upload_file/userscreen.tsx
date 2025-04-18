@@ -54,7 +54,8 @@ export default function UserScreen() {
     const formData = new FormData(event.currentTarget);
 
 
-    axios.post("http://deploy-aws.com:3006/upload_excel_update_master_sugar_stock", formData, {headers: {'Content-Type': 'multipart/form-data'}})
+    //axios.post("http://deploy-aws.com:3006/upload_excel_update_master_sugar_stock", formData, {headers: {'Content-Type': 'multipart/form-data'}})
+    axios.post("http://deploy-aws.com:3006/master_data/upload", formData, {headers: {'Content-Type': 'multipart/form-data'}})
                       .then(res => {
                         console.log(res.data);
                         alert('uploaded');
@@ -574,7 +575,7 @@ export default function UserScreen() {
      "Content-Type": "application/json"
     },
     data: {
-     anything: ""
+     anything: ""j
    },
   })
   .then(res => { 
