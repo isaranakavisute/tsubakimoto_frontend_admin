@@ -575,7 +575,7 @@ export default function UserScreen() {
      "Content-Type": "application/json"
     },
     data: {
-     anything: ""j
+     anything: ""
    },
   })
   .then(res => { 
